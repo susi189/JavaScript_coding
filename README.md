@@ -1,3 +1,4 @@
-# JavaScript_notes
-
+***
+JavaScript - my notes
+***
 

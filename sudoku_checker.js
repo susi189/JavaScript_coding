@@ -1,3 +1,7 @@
+/* Practice excercise */
+
+/* Helper functions to access row, column and grid */ 
+
 function getRow(grid, rowIndex){
   return grid[rowIndex]
 }
@@ -21,6 +25,8 @@ function getSubgrid(grid, x, y) {
   return section;
 }
 
+/* function that checks if the numbers 1-9 are given */ 
+
 function includes1to9(grid){
   for (var i = 1; i <= grid.length; i++){
     if (grid.indexOf(i) === -1){
@@ -29,6 +35,8 @@ function includes1to9(grid){
   }
   return true
 }
+
+/* the final function */
 
 function sudokuIsValid(grid){
   for (var i = 0; i < 9; i++){
@@ -50,4 +58,4 @@ function sudokuIsValid(grid){
  return true
 }
 
-sudokuIsValid(p8zzle);
+sudokuIsValid();

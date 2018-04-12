@@ -35,25 +35,9 @@ function generateWordPairs(text){
   return wordsObj
 }
 
-// test case 
-
-// function countWords(text){
-//   var wordsObj = {}
-//   var parsedText = parseText(text)
-//   for(var i = 0; i < parsedText.length - 1; i++){
-//     var key = parsedText[i];
-//     // var value = parsedText[i + 1]
-//     if (!wordsObj[key]){
-//       wordsObj[key] = []
-//     }
-//     wordsObj[key].push(1)
-//   } 
-//   return wordsObj
-// }
-
 console.log(wordPairs);
 
-// create a one line of poetry
+// Create a one line of poetry
 
 // helper function -> choosing random words
 
